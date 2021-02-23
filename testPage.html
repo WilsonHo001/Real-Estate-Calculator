@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Google Maps Polygon Drawing/Coordinates Tool</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=places&v=3.exp,geometry,places,weekly"
+    defer
+  ></script>
+<div id="map_canvas"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <script src="./Property.js"></script>
+  <script src="./mapScript.js"></script>
+</head>
+
+<body>
+  <div id="map-canvas"></div>
+  <input
+      id="pac-input"
+      class="controls"
+      type="text"
+      placeholder="Search Box"
+  />
+</body>
+</html>

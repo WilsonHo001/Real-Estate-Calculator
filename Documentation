@@ -1,0 +1,62 @@
+/** 
+ * Description: Initializes map - center, zoom, type, draw button, search bar
+ */ 
+function initMap()
+
+
+/** Description: Adds search bar with auto-fill and plotting properties
+ * @param {Google Map} map
+ */
+function addSearchBar(map)
+
+
+/**  Description: Calls the Realtor API and plots
+ * all the properties that it received from the Realtor API
+ * @param {Google Map} map
+ * @param {string} city
+ * @param {string} state
+ */
+function searchProperties(map, city, state)
+
+
+/** Description: Wait for user to draw a region
+ * and send the polyline to the plotting function
+ * @param {Google Map} map
+ */
+function drawArea(map)
+
+
+/** Description: Plot properties contained within drawn polyline
+ * @param {Google Map} map
+ * @param {Google Polyline} polyline
+ */
+function plotArea(map, polyline)
+
+
+/** Description: Makes an int readeable by separating surrounding blocks of three with commas
+ * @param {int} x
+ * @return {string} returns comma separated int as a string
+ */
+function numberWithCommas(x)
+
+
+/** Description: Generates a marker for a given property
+ * (coordinates should be provided)
+ * Pre-Conditions: the argument should be of a type Property and all
+ * @param {Property} propertyObject
+ * @param {Google Map} map
+ */
+ function createMarkerWithCoord(propertyObject, map)
+
+ /* Closes previously opened info window */
+function closeLastOpenedInfoWindow()
+
+/** Description: Plots the markers for each property in a 
+ * given list on a given map
+ * @param {Google Map} map 
+ * @param {Array<Property>} listOfProperties
+*/ 
+function plotMarkers(map, listOfProperties)
+
+/* Removes all the markers that are currently plotted */
+function cleanMap()

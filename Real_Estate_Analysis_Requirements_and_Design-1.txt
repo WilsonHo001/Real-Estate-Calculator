@@ -1,0 +1,30 @@
+Real-Estate-Analysis:
+
+Requirements:
+	The client, as we understand it, requires the ability for a user to enter certain physical (number of units within the property, location, etc...) and financial metrics (cost, upkeep costs, initial labor costs, etc...) about a property that is for sale into a calculator that will determine the likelihood of turning a profit on that property by either flipping it or buying it, fixing it up, and renting it out.  The user will then be able to draw a polygon on an embedded google map that will display markers on the map for every property that is in the list of properties for sale and within the user drawn polygon.  Our team's responsibility is to manage the map portion of this project.  This means that we must handle everything from the point where the graduate student group hands us an array of properties with metrics about those properties to the proper display of those properties as markers on a map within a polygon that the user had drawn.
+
+Specific Technical Requirements/Design:
+	* Use Javascript, HTML5, CSS languages to keep syntactic alignment with graduate student portion of project.
+	* Embed a Google map onto the web page.
+	* Handle an array of properties with associated values such as addresses, cost, etc... (final list will be provided by graduate students) in order to turn that data into a marker on a map with the data listed for that property when the user clicks on it.
+	* Turn the properties' addresses into latitude and longitude coordinates and vice versa
+	* Allow a user to be able to draw a polygon on the embedded google map
+	* Allow for restructuring, deletion, and movement of polygon on the map by the user
+	* Have functionality to only show markers within the polygon
+	* Update which markers are displayed if the user changes the polygon
+	* Keep well documented and concise code so as to maintain an efficient code base
+	* Be able to output an array of viable properties that fall within the user's polygon for graduate students further use
+
+How we've split the requirements into sub groups for working:
+	* Creating markers.
+	* Drawing and editing the polygon on the map.
+	* Translating addresses to latitude/longitude and vice-versa.
+
+Ancillary Group Requirements:
+	* Meet twice a week - Monday at 3:00 P.M. and Thursday at 1:00 P.M.
+	* Use gitlab as for group coding work.
+	* Stay up to date on commits/merges to codebase.
+	* Try to maintain equal work loads.
+
+
+
